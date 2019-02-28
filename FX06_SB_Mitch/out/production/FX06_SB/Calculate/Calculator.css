@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: #00FFFF;
+    -fx-background-image: url("Cat.jpg");
+    -fx-background-repeat: repeat;
+    }
+.button {
+    -fx-background-color: #4286f4;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(one-pass-box, #000000, 8, 0.0, 2, 0 );
+    }
+
+.button:hover {
+    -fx-background-color: #002768;
+}
+
